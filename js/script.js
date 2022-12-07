@@ -15,7 +15,7 @@ generate_grid.addEventListener('click', function() {
 
 		grid_cell.addEventListener('click', function(){
 			console.log(this.innerText);
-			this.classList.add('clicked')
+			this.classList.toggle('clicked')
 		})
 	}
 });
